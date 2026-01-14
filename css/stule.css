@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ---------------------header--------------------- */
+#navbar{
+display:flex;
+background-color: rgb(206, 212, 208);
+justify-content: space-between;
+height: 100px;
+
+}
+#navbar img{
+width: 60px;
+border-radius: 50%;
+margin-left: 30px;
+margin-top: 19px;
+}
+#navbar p{
+ text-decoration: none;
+ margin-left: 15px;
+ font-size: 25px;
+ color: #000;
+ font-style:inherit;
+ float: right;
+ margin-top: 35px;
+}
+#navbar ul{
+list-style: none;
+display: flex;
+margin-top: 38px;
+}
+#navbar ul a{
+text-decoration: none;
+padding: 5px;
+font-size: 23px;
+color: #000;
+margin: 15px;
+font-style: normal;
+}
+#navbar ul a:hover{
+  color: blueviolet;
+}
+
+/* ---------------------main--------------------- */
+#main{
+    background-color: rgba(119, 165, 26, 0.434);
+    display: flex;                 
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+#main .image{
+    width: 28%;
+    display: flex;
+    justify-content: flex-end;  
+    margin-bottom: 40px;  
+}
+#main img{
+    width: 100%;
+    height:40% auto;
+}
+#main h2{
+margin-left: 4%;
+
+font-size: 40px;
+
+}
+#main p{
+margin-left: 4%;
+padding-top: 1%;
+font-size: 30px;
+}
+#main .button{
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 150px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  text-decoration: none;
+  color: #000;
+  border-radius: 20px;
+  font-size: 20px;
+}
+#main .button:hover{
+background-color: rgba(62, 3, 164, 0.217);
+}
+#cards{
+  display: grid;                             
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 70px;
+  padding: 50px;
+  background-color: #00000068;
+}
+.card{
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.card img{
+  width: 100%;
+  max-width: 180px;
+  margin: auto;
+}
+.card .btn{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  text-decoration: none;
+  color: #000;
+  border-radius: 20px;
+}
+/* -----------------fotter----------- */
+#footer{
+    background-color: rgb(212, 220, 220);
+    height: 100px;
+}
+#footer ul{
+   list-style: none;
+display: flex;
+margin-top: 38px;
+padding-left: 400px;
+padding-top: 30px;
+
+}
+#footer ul a{
+text-decoration: none;
+
+font-size: 23px;
+color: #000;
+margin: 15px;
+font-style: normal;
+
+}
+#footer ul a:hover{
+  color: blueviolet;
+}
+#footer p{
+    padding-left:500px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(1, 8, 9);
+    font-style:inherit;
+   
+}
+

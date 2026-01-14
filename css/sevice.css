@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ---------------------header--------------------- */
+#navbar{
+display:flex;
+background-color: rgb(206, 212, 208);
+justify-content: space-between;
+height: 100px;
+
+}
+#navbar img{
+width: 60px;
+border-radius: 50%;
+margin-left: 30px;
+margin-top: 19px;
+}
+#navbar p{
+ text-decoration: none;
+ margin-left: 15px;
+ font-size: 25px;
+ color: #000;
+ font-style:inherit;
+ float: right;
+ margin-top: 35px;
+}
+#navbar ul{
+list-style: none;
+display: flex;
+margin-top: 38px;
+}
+#navbar ul a{
+text-decoration: none;
+padding: 5px;
+font-size: 23px;
+color: #000;
+margin: 15px;
+font-style: normal;
+}
+#navbar ul a:hover{
+  color: blueviolet;
+}
+#photo img{
+    width: 100%;
+    
+}
+
+.video-section{
+  display: flex;
+  flex-direction: column;   
+  align-items: center;  
+  padding: 60px 0;
+  background-color: #6b6cc141; 
+}
+
+.video-section .vid{
+  font-size: 32px;
+  margin-bottom: 25px;      
+  color: #2f1c0f;          
+}
+
+.video-section video{
+  width: 70%;
+  max-width: 800px;
+  border-radius: 20px;
+}
+
+
+/* ------------------main----------------- */
+.services{
+  display: grid;
+ grid-template-columns: repeat(2, 1fr);
+  gap: 90px;
+  padding: 50px;
+  background-color: #f5efe6;
+
+}
+
+.service{
+  background-color: #6b6cc141; 
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+  height: 130px;
+  width: 90%;
+  margin-top: 70px;
+}
+.img img{
+    
+   width: 50%; 
+border-radius: 1%;
+}
+.service h3{
+    margin-top: 35px;
+}
+.service p{
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+/* -----------------fotter----------- */
+#footer{
+    background-color: rgb(212, 220, 220);
+    height: 100px;
+}
+#footer ul{
+   list-style: none;
+display: flex;
+margin-top: 38px;
+padding-left: 400px;
+padding-top: 30px;
+
+}
+#footer ul a{
+text-decoration: none;
+
+font-size: 23px;
+color: #000;
+margin: 15px;
+font-style: normal;
+
+}
+#footer ul a:hover{
+  color: blueviolet;
+}
+#footer p{
+    padding-left:500px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(1, 8, 9);
+    font-style:inherit;
+   
+}

@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ---------------------header--------------------- */
+#navbar{
+display:flex;
+background-color: rgb(206, 212, 208);
+justify-content: space-between;
+height: 100px;
+
+}
+#navbar img{
+width: 60px;
+border-radius: 50%;
+margin-left: 30px;
+margin-top: 19px;
+}
+#navbar p{
+ text-decoration: none;
+ margin-left: 15px;
+ font-size: 25px;
+ color: #000;
+ font-style:inherit;
+ float: right;
+ margin-top: 35px;
+}
+#navbar ul{
+list-style: none;
+display: flex;
+margin-top: 38px;
+}
+#navbar ul a{
+text-decoration: none;
+padding: 5px;
+font-size: 23px;
+color: #000;
+margin: 15px;
+font-style: normal;
+}
+#navbar ul a:hover{
+  color: blueviolet;
+}
+/* -------------------------main---------------- */
+.about{
+  background-color: #f5efe6;
+  padding: 80px 50px;
+}
+
+.about-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.text h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.text p{
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.img img{
+  width: 100%;
+  border-radius: 20px;
+}
+.contact{
+  background-color: #C19A6B; 
+  padding: 80px 50px;
+}
+
+.contact h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.table{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  padding: 12px;
+  font-size: 16px;
+}
+
+.contact-form button{
+  background: #2f1c0f;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.info p{
+  font-size: 18px;
+}
+/* -----------------fotter----------- */
+#footer{
+    background-color: rgb(212, 220, 220);
+    height: 100px;
+}
+#footer ul{
+   list-style: none;
+display: flex;
+margin-top: 38px;
+padding-left: 400px;
+padding-top: 30px;
+
+}
+#footer ul a{
+text-decoration: none;
+
+font-size: 23px;
+color: #000;
+margin: 15px;
+font-style: normal;
+
+}
+#footer ul a:hover{
+  color: blueviolet;
+}
+#footer p{
+    padding-left:500px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(1, 8, 9);
+    font-style:inherit;
+   
+}

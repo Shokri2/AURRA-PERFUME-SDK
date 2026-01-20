@@ -114,6 +114,11 @@ background-color: rgba(62, 3, 164, 0.217);
   color: #000;
   border-radius: 20px;
 }
+.card .btn:hover{
+background-color: rgba(62, 3, 164, 0.217);
+
+}
+
 /* -----------------fotter----------- */
 #footer{
     background-color: rgb(212, 220, 220);
@@ -145,6 +150,191 @@ font-style: normal;
     font-size: 20px;
     color: rgb(1, 8, 9);
     font-style:inherit;
-   
+
+}
+
+@media (max-width: 600px){
+
+/* ---------- Navbar ---------- */
+#navbar{
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#navbar img{
+  margin: 10px 0;
+}
+
+#navbar p{
+
+  font-size: 20px;
+}
+
+#navbar ul{
+  margin: 10px 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#navbar ul a{
+  font-size: 18px;
+  margin: 6px;
+}
+
+/* ---------- Main Section ---------- */
+#main{
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+#main .image{
+  width: 70%;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+#main h2{
+  margin-left: 0;
+  font-size: 28px;
+}
+
+#main p{
+  margin-left: 0;
+  font-size: 20px;
+}
+
+#main .button{
+  margin-left: 0;
+  font-size: 18px;
+  padding: 8px 20px;
+}
+
+/* ---------- Cards ---------- */
+#cards{
+  gap: 30px;
+  padding: 30px 15px;
+}
+
+.card img{
+  max-width: 140px;
+}
+
+.card .btn{
+  font-size: 16px;
+  padding: 8px 20px;
+}
+
+/* ---------- Footer ---------- */
+#footer{
+  height: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer ul{
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+#footer p{
+  padding-left: 0;
+  font-size: 16px;
+}
+}
+
+
+
+
+@media (max-width: 900px){
+
+/* ---------- navbar ---------- */
+#navbar{
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#navbar img{
+ width: 50px;
+border-radius: 50%;
+
+margin-top: 19px;
+}
+
+#navbar p{
+
+  font-size: 22px;
+}
+
+#navbar ul{
+  margin: 10px 0;
+  padding: 0;
+}
+
+#navbar ul a{
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* ---------- main ---------- */
+#main{
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+#main h2,
+#main p{
+  margin-left: 0;
+}
+
+#main p{
+  font-size: 24px;
+}
+
+#main .image{
+  width: 60%;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+#main .button{
+  margin-left: 0;
+}
+
+
+#cards{
+  gap: 40px;
+  padding: 30px;
+}
+
+.card img{
+  max-width: 150px;
+}
+
+/* ---------- footer ---------- */
+#footer{
+  height: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer ul{
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#footer p{
+  padding-left: 0;
+  font-size: 18px;
+}
 }
 

@@ -133,3 +133,98 @@ font-style: normal;
     font-style:inherit;
    
 }
+@media (max-width: 900px){
+
+/* ---------- Navbar ---------- */
+#navbar{
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#navbar img{
+  margin: 10px 0;
+}
+
+#navbar p{
+ 
+  font-size: 22px;
+}
+
+#navbar ul{
+  margin: 10px 0;
+  padding: 0;
+}
+
+#navbar ul a{
+  font-size: 20px;
+  margin: 8px;
+}
+
+
+#photo img{
+  width: 100%;
+  height: auto;
+ justify-content: center;
+}
+
+
+.video-section{
+  padding: 40px 15px;
+}
+
+.video-section .vid{
+  font-size: 26px;
+  text-align: center;
+}
+
+.video-section video{
+  width: 90%;
+}
+
+/* ---------- Services ---------- */
+.services{
+  grid-template-columns: 1fr;
+  gap: 40px;
+  padding: 30px 15px;
+}
+
+.service{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.img img{
+  width: 40%;
+}
+
+.service h3{
+  margin-top: 15px;
+}
+
+.service p{
+  font-size: 18px;
+}
+
+/* ---------- Footer ---------- */
+#footer{
+  height: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer ul{
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#footer p{
+  padding-left: 0;
+  font-size: 18px;
+}
+}
+
